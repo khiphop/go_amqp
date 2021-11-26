@@ -1,0 +1,12 @@
+http_port: 9001
+amqp:
+  username: root
+  password: 123123
+  host: 127.0.0.1
+  port: 5672
+  vhost: /mq
+  queue_count: 2
+  queue_prefix: seck
+  transfer_url: http://127.0.0.1:8020/user/get
+  # range [1 *]
+  queue_start_no: 1
